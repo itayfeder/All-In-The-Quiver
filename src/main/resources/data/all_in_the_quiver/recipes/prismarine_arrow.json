@@ -1,0 +1,16 @@
+{
+  "type": "all_in_the_quiver:fletching",
+  "fletching": {
+    "item": "minecraft:feather"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "arrowhead": {
+    "item": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "item": "all_in_the_quiver:prismarine_arrow",
+	"count": 3
+  }
+}

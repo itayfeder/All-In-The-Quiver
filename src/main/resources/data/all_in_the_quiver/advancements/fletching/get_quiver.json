@@ -1,0 +1,37 @@
+{
+  "parent": "all_in_the_quiver:fletching/root",
+  "display": {
+    "icon": {
+      "item": "all_in_the_quiver:quiver"
+    },
+    "title": {
+      "translate": "advancements.fletching.get_quiver.title"
+    },
+    "description": {
+      "translate": "advancements.fletching.get_quiver.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:quiver"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond"
+    ]
+  ]
+}

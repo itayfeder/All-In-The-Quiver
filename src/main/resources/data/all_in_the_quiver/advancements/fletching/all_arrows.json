@@ -1,0 +1,132 @@
+{
+  "parent": "all_in_the_quiver:fletching/root",
+  "display": {
+    "icon": {
+      "item": "all_in_the_quiver:explosive_arrow"
+    },
+    "title": {
+      "translate": "advancements.fletching.all_arrows.title"
+    },
+    "description": {
+      "translate": "advancements.fletching.all_arrows.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:pufferfish_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"explosive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:explosive_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:slime_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:prismarine_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"hookshot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:hookshot_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"message": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:message_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"teleportation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:teleportation_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"ink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:ink_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:torch_arrow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "pufferfish" ], [ "explosive" ], [ "slime" ], [ "prismarine" ], [ "hookshot" ], 
+	[ "message" ], [ "teleportation" ], [ "ink" ], [ "torch" ]
+  ]
+}

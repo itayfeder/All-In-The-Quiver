@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "all_in_the_quiver:pufferfish_arrow",
+    "all_in_the_quiver:explosive_arrow",
+    "all_in_the_quiver:slime_arrow",
+    "all_in_the_quiver:prismarine_arrow",
+    "all_in_the_quiver:hookshot_arrow",
+    "all_in_the_quiver:message_arrow",
+    "all_in_the_quiver:teleportation_arrow",
+    "all_in_the_quiver:ink_arrow",
+    "all_in_the_quiver:torch_arrow",
+    "all_in_the_quiver:paint_arrow"
+  ]
+}

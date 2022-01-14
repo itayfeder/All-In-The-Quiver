@@ -1,0 +1,16 @@
+{
+  "type": "all_in_the_quiver:fletching",
+  "fletching": {
+    "item": "minecraft:feather"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "arrowhead": {
+    "item": "minecraft:tnt"
+  },
+  "result": {
+    "item": "all_in_the_quiver:explosive_arrow",
+	"count": 3
+  }
+}

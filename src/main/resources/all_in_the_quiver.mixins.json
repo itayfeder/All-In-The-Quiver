@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.itayfeder.all_in_the_quiver.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "all_in_the_quiver.refmap.json",
+  "mixins": [
+    "PlayerMixin",
+    "FletchingTableMixin",
+    "RecipeManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
