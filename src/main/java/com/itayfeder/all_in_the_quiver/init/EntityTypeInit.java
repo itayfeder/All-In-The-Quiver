@@ -2,6 +2,8 @@ package com.itayfeder.all_in_the_quiver.init;
 
 import com.itayfeder.all_in_the_quiver.AllInTheQuiverMod;
 import com.itayfeder.all_in_the_quiver.arrows.explosive.ExplosiveArrow;
+import com.itayfeder.all_in_the_quiver.arrows.freezing.FreezingArrow;
+import com.itayfeder.all_in_the_quiver.arrows.golden.GoldenArrow;
 import com.itayfeder.all_in_the_quiver.arrows.hookshot.HookshotArrow;
 import com.itayfeder.all_in_the_quiver.arrows.ink.InkArrow;
 import com.itayfeder.all_in_the_quiver.arrows.message.MessageArrow;
@@ -72,4 +74,14 @@ public class EntityTypeInit {
             () -> EntityType.Builder.<PaintArrow>of(PaintArrow::new, MobCategory.MISC)
                     .sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20).setCustomClientFactory(PaintArrow::new)
                     .build(new ResourceLocation(AllInTheQuiverMod.MOD_ID, "paint_arrow").toString()));
+
+    public static final RegistryObject<EntityType<FreezingArrow>> FREEZING_ARROW = ENTITY_TYPES.register("freezing_arrow",
+            () -> EntityType.Builder.<FreezingArrow>of(FreezingArrow::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20).setCustomClientFactory(FreezingArrow::new)
+                    .build(new ResourceLocation(AllInTheQuiverMod.MOD_ID, "freezing_arrow").toString()));
+
+    public static final RegistryObject<EntityType<GoldenArrow>> GOLDEN_ARROW = ENTITY_TYPES.register("golden_arrow",
+            () -> EntityType.Builder.<GoldenArrow>of(GoldenArrow::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20).setCustomClientFactory(GoldenArrow::new)
+                    .build(new ResourceLocation(AllInTheQuiverMod.MOD_ID, "golden_arrow").toString()));
 }

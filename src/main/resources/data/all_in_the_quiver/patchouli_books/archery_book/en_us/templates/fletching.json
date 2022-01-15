@@ -1,0 +1,50 @@
+{
+	"components": [
+		{
+			"type": "patchouli:header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "patchouli:image",
+			"image": "all_in_the_quiver:textures/gui/patchouli/fletching.png",
+			"y": 10,
+			"width": 128,
+			"height": 64,
+			"texture_width": 128,
+			"texture_height": 64
+		},
+		{
+			"type": "patchouli:item",
+			"item": "#fletching",
+			"x": 12,
+			"y": 53
+		},
+		{
+			"type": "patchouli:item",
+			"item": "#shaft",
+			"x": 31,
+			"y": 34
+		},
+		{
+			"type": "patchouli:item",
+			"item": "#arrowhead",
+			"x": 50,
+			"y": 15
+		},
+		{
+			"type": "patchouli:item",
+			"item": "#result",
+			"x": 88,
+			"y": 34
+		},
+		{
+			"type": "patchouli:item",
+			"item": "minecraft:fletching_table",
+			"x": 88,
+			"y": 53
+		}
+		
+	]
+}

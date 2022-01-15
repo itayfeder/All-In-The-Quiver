@@ -1,0 +1,20 @@
+{
+    "name": "Prismarine Arrow",
+    "icon": "all_in_the_quiver:prismarine_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:prismarine_arrow",
+            "text": "Prismarine Arrows are a new type of arrow added in All In The Quiver. Thse arrows are slower and weaker outside of water, but inside they are faster, stronger and are not effected by the water's drag."
+        },
+		{
+            "type": "all_in_the_quiver:fletching",
+            "heading": "Fletching Recipe",
+            "fletching": "minecraft:feather",
+            "shaft": "minecraft:stick",
+            "arrowhead": "minecraft:prismarine_shard",
+            "result": "all_in_the_quiver:prismarine_arrow#3"
+        }
+    ]
+}

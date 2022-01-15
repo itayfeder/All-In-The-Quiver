@@ -2,6 +2,8 @@ package com.itayfeder.all_in_the_quiver.utils;
 
 import com.itayfeder.all_in_the_quiver.AllInTheQuiverMod;
 import com.itayfeder.all_in_the_quiver.arrows.explosive.ExplosiveArrowRenderer;
+import com.itayfeder.all_in_the_quiver.arrows.freezing.FreezingArrowRenderer;
+import com.itayfeder.all_in_the_quiver.arrows.golden.GoldenArrowRenderer;
 import com.itayfeder.all_in_the_quiver.arrows.hookshot.HookshotArrowRenderer;
 import com.itayfeder.all_in_the_quiver.arrows.ink.InkArrowRenderer;
 import com.itayfeder.all_in_the_quiver.arrows.message.MessageArrowRenderer;
@@ -35,6 +37,8 @@ public class ClientEventBusSubscriber {
         EntityRenderers.register(EntityTypeInit.INK_ARROW.get(), InkArrowRenderer::new);
         EntityRenderers.register(EntityTypeInit.TORCH_ARROW.get(), TorchArrowRenderer::new);
         EntityRenderers.register(EntityTypeInit.PAINT_ARROW.get(), PaintArrowRenderer::new);
+        EntityRenderers.register(EntityTypeInit.FREEZING_ARROW.get(), FreezingArrowRenderer::new);
+        EntityRenderers.register(EntityTypeInit.GOLDEN_ARROW.get(), GoldenArrowRenderer::new);
 
         MenuScreens.register(MenuInit.FLETCHING_TABLE.get(), FletchingTableScreen::new);
     }

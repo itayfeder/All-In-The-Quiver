@@ -1,0 +1,20 @@
+{
+    "name": "Paint Arrow",
+    "icon": "all_in_the_quiver:paint_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:paint_arrow",
+            "text": "Paint Arrows are a new type of arrow added in All In The Quiver. These arrows color the block that they hit, if it has color variations. Create different colors by putting 8 paint arrows around a dye."
+        },
+		{
+            "type": "all_in_the_quiver:fletching",
+            "heading": "Fletching Recipe",
+            "fletching": "minecraft:feather",
+            "shaft": "minecraft:stick",
+            "arrowhead": "minecraft:white_dye",
+            "result": "all_in_the_quiver:paint_arrow#2"
+        }
+    ]
+}

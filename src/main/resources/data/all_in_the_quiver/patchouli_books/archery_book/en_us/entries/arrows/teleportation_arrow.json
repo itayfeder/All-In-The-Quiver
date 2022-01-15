@@ -1,0 +1,20 @@
+{
+    "name": "Teleportation Arrow",
+    "icon": "all_in_the_quiver:teleportation_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:teleportation_arrow",
+            "text": "Teleportation Arrows are a new type of arrow added in All In The Quiver. These arrows function like Ender Pearls. You can shoot them to teleport to the location they hit. With the bow, you can throw it farther than before."
+        },
+		{
+            "type": "all_in_the_quiver:fletching",
+            "heading": "Fletching Recipe",
+            "fletching": "minecraft:feather",
+            "shaft": "minecraft:stick",
+            "arrowhead": "minecraft:ender_pearl",
+            "result": "all_in_the_quiver:teleportation_arrow#1"
+        }
+    ]
+}

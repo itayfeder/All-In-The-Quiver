@@ -1,6 +1,7 @@
 {
   "container.fletch": "Fletch Arrows",
   "gui.jei.fletching": "Fletching",
+  "itemGroup.quiver": "All In The Quiver",
 
   "item.all_in_the_quiver.quiver": "Quiver",
 
@@ -14,6 +15,8 @@
   "item.all_in_the_quiver.ink_arrow": "Ink Arrow",
   "item.all_in_the_quiver.torch_arrow": "Torch Arrow",
   "item.all_in_the_quiver.paint_arrow": "Paint Arrow",
+  "item.all_in_the_quiver.freezing_arrow": "Freezing Arrow",
+  "item.all_in_the_quiver.golden_arrow": "Golden Arrow",
 
   "advancements.fletching.root.title": "All In The Quiver",
   "advancements.fletching.root.description": "Steady Hands...",

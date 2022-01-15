@@ -1,8 +1,10 @@
 package com.itayfeder.all_in_the_quiver.init;
 
+import com.itayfeder.all_in_the_quiver.AllInTheQuiverMod;
 import com.itayfeder.all_in_the_quiver.mixin.RecipeManagerMixin;
 import com.itayfeder.all_in_the_quiver.recipes.fletching.FletchingRecipe;
 import com.itayfeder.all_in_the_quiver.recipes.fletching.FletchingRecipeType;
+import com.itayfeder.all_in_the_quiver.recipes.paint_arrow.PaintArrowRecipe;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Container;
@@ -22,6 +24,7 @@ public class RecipeInit {
         System.out.println(FLETCHING_RECIPE.toString());
         Registry.register(Registry.RECIPE_TYPE, new ResourceLocation(FLETCHING_RECIPE.toString()), FLETCHING_RECIPE);
         event.getRegistry().register(FletchingRecipe.SERIALIZER);
+        event.getRegistry().register(PaintArrowRecipe.PAINT_ARROW.setRegistryName(new ResourceLocation(AllInTheQuiverMod.MOD_ID, "crafting_special_paintarrow")));
     }
 
     public static <C extends Container, T extends Recipe<C>> Map<ResourceLocation, Recipe<C>> getRecipes(Level world, RecipeType<T> type) {

@@ -1,0 +1,20 @@
+{
+    "name": "Pufferfish Arrow",
+    "icon": "all_in_the_quiver:pufferfish_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:pufferfish_arrow",
+            "text": "Pufferfish Arrows are a new type of arrow added in All In The Quiver. These arrows place a pufferfish on hit. While they look harmless, they are deceivingly deadly, as the pufferfish like to poison the hit entities."
+        },
+		{
+            "type": "all_in_the_quiver:fletching",
+            "heading": "Fletching Recipe",
+            "fletching": "minecraft:feather",
+            "shaft": "minecraft:stick",
+            "arrowhead": "minecraft:pufferfish",
+            "result": "all_in_the_quiver:pufferfish_arrow#1"
+        }
+    ]
+}

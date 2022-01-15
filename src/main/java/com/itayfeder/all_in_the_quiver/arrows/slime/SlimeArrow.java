@@ -24,18 +24,22 @@ public class SlimeArrow extends AbstractArrow {
 
     public SlimeArrow(EntityType<? extends SlimeArrow> p_37411_, Level p_37412_) {
         super(p_37411_, p_37412_);
+        this.setBaseDamage(1D);
     }
 
     public SlimeArrow(Level p_37419_, LivingEntity p_37420_) {
         super(EntityTypeInit.SLIME_ARROW.get(), p_37420_, p_37419_);
+        this.setBaseDamage(1D);
     }
 
     public SlimeArrow(Level p_37414_, double p_37415_, double p_37416_, double p_37417_) {
         super(EntityTypeInit.SLIME_ARROW.get(), p_37415_, p_37416_, p_37417_, p_37414_);
+        this.setBaseDamage(1D);
     }
 
     public SlimeArrow(PlayMessages.SpawnEntity spawnEntity, Level world) {
         this(EntityTypeInit.SLIME_ARROW.get(), world);
+        this.setBaseDamage(1D);
     }
 
     public void tick() {

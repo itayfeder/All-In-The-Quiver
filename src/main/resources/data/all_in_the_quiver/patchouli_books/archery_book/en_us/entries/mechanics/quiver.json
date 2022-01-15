@@ -1,0 +1,17 @@
+{
+    "name": "Quiver",
+    "icon": "all_in_the_quiver:quiver",
+    "category": "all_in_the_quiver:mechanics_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:quiver",
+            "text": "The Quiver is a useful tool for all aspiring archers. It can hold up to 5 stacks of arrows, and still use them in bows and crossbows!"
+        },
+		{
+            "type": "patchouli:crafting",
+            "recipe": "all_in_the_quiver:quiver",
+			"text": "To add arrows to the quiver, click on them with an arrow stack in your inventory. You  can also remove arrows by clicking with an empty hand."
+        }
+    ]
+}

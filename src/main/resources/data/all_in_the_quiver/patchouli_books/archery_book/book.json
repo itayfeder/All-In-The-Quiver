@@ -1,0 +1,8 @@
+{
+    "name": "Book Of Archery",
+    "landing_text": "The place for all your archery needs!",
+    "version": 1,
+    "model": "all_in_the_quiver:archery_book",
+	"creative_tab": "quiver",
+	"advancements_tab": "all_in_the_quiver:fletching"
+}

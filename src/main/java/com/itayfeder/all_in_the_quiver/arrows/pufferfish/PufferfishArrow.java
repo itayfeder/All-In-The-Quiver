@@ -16,18 +16,22 @@ import net.minecraftforge.network.PlayMessages;
 public class PufferfishArrow extends AbstractArrow {
     public PufferfishArrow(EntityType<? extends PufferfishArrow> p_37411_, Level p_37412_) {
         super(p_37411_, p_37412_);
+        this.setBaseDamage(1D);
     }
 
     public PufferfishArrow(Level p_37419_, LivingEntity p_37420_) {
         super(EntityTypeInit.PUFFERFISH_ARROW.get(), p_37420_, p_37419_);
+        this.setBaseDamage(1D);
     }
 
     public PufferfishArrow(Level p_37414_, double p_37415_, double p_37416_, double p_37417_) {
         super(EntityTypeInit.PUFFERFISH_ARROW.get(), p_37415_, p_37416_, p_37417_, p_37414_);
+        this.setBaseDamage(1D);
     }
 
     public PufferfishArrow(PlayMessages.SpawnEntity spawnEntity, Level world) {
         this(EntityTypeInit.PUFFERFISH_ARROW.get(), world);
+        this.setBaseDamage(1D);
     }
 
     @Override

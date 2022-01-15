@@ -1,0 +1,20 @@
+{
+    "name": "Message Arrow",
+    "icon": "all_in_the_quiver:message_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:message_arrow",
+            "text": "Message Arrows are a new type of arrow added in All In The Quiver. After naming these arrows, you can shoot them to display the name as hovering text. Perfect for delivering all kinds of messages."
+        },
+		{
+            "type": "all_in_the_quiver:fletching",
+            "heading": "Fletching Recipe",
+            "fletching": "minecraft:feather",
+            "shaft": "minecraft:stick",
+            "arrowhead": "minecraft:paper",
+            "result": "all_in_the_quiver:message_arrow#2"
+        }
+    ]
+}

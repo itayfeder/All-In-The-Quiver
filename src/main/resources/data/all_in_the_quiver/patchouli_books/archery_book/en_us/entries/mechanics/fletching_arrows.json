@@ -1,0 +1,16 @@
+{
+    "name": "Fletching Arrows",
+    "icon": "minecraft:fletching_table",
+    "category": "all_in_the_quiver:mechanics_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "All aspiring archers need arrows to shoot!$(br2)To create arrows, you need to use a Fletching Table. These tables, which are already present in villages, have been given new functionality."
+        },
+		{
+            "type": "patchouli:spotlight",
+            "item": "minecraft:fletching_table",
+			"text": "You can now open fletching tables to reveal a new crafting inventory. You can use it to create all sorts of arrows, from the vanilla arrow to new arrow types the mod adds."
+        }
+    ]
+}

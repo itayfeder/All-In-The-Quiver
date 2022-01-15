@@ -123,10 +123,47 @@
           }
         ]
       }
+    },
+	"paint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:paint_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"freezing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:freezing_arrow"
+            ]
+          }
+        ]
+      }
+    },
+	"golden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "all_in_the_quiver:golden_arrow"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [ "pufferfish" ], [ "explosive" ], [ "slime" ], [ "prismarine" ], [ "hookshot" ], 
-	[ "message" ], [ "teleportation" ], [ "ink" ], [ "torch" ]
+	[ "message" ], [ "teleportation" ], [ "ink" ], [ "torch" ], [ "paint" ], [ "freezing" ], 
+	[ "golden" ]
   ]
 }

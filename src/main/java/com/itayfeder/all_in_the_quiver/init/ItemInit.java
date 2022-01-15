@@ -2,6 +2,8 @@ package com.itayfeder.all_in_the_quiver.init;
 
 import com.itayfeder.all_in_the_quiver.AllInTheQuiverMod;
 import com.itayfeder.all_in_the_quiver.arrows.explosive.ExplosiveArrowItem;
+import com.itayfeder.all_in_the_quiver.arrows.freezing.FreezingArrowItem;
+import com.itayfeder.all_in_the_quiver.arrows.golden.GoldenArrowItem;
 import com.itayfeder.all_in_the_quiver.arrows.hookshot.HookshotArrowItem;
 import com.itayfeder.all_in_the_quiver.arrows.ink.InkArrowItem;
 import com.itayfeder.all_in_the_quiver.arrows.message.MessageArrowItem;
@@ -34,6 +36,8 @@ public class ItemInit {
     public static final Item INK_ARROW = new InkArrowItem((new Item.Properties()).tab(AllInTheQuiverMod.TAB));
     public static final Item TORCH_ARROW = new TorchArrowItem((new Item.Properties()).tab(AllInTheQuiverMod.TAB));
     public static final Item PAINT_ARROW = new PaintArrowItem((new Item.Properties()).tab(AllInTheQuiverMod.TAB));
+    public static final Item FREEZING_ARROW = new FreezingArrowItem((new Item.Properties()).tab(AllInTheQuiverMod.TAB));
+    public static final Item GOLDEN_ARROW = new GoldenArrowItem((new Item.Properties()).tab(AllInTheQuiverMod.TAB));
 
     public static void register(IForgeRegistry<Item> registry, Item item, String id) {
         item.setRegistryName(new ResourceLocation(AllInTheQuiverMod.MOD_ID, id));
@@ -54,5 +58,7 @@ public class ItemInit {
         register(registry.getRegistry(), INK_ARROW, "ink_arrow");
         register(registry.getRegistry(), TORCH_ARROW, "torch_arrow");
         register(registry.getRegistry(), PAINT_ARROW, "paint_arrow");
+        register(registry.getRegistry(), FREEZING_ARROW, "freezing_arrow");
+        register(registry.getRegistry(), GOLDEN_ARROW, "golden_arrow");
     }
 }

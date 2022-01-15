@@ -1,0 +1,4 @@
+COMPATIBLE WITH:
+
+- JEI: fletching table info, paint arrow info.
+- Patchouli: mod guide book.

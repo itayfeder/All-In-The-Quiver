@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "all_in_the_quiver:item/archery_book"
+  }
+}

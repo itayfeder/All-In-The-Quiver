@@ -1,0 +1,16 @@
+{
+    "name": "Ink Arrow",
+    "icon": "all_in_the_quiver:ink_arrow",
+    "category": "all_in_the_quiver:arrows_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "all_in_the_quiver:ink_arrow",
+            "text": "Ink Arrows are a new type of arrow added in All In The Quiver. These arrows create a cloud of ink on hit, which blinds entities inside of it. Useful in combat situations, or just to troll your friends!"
+        },
+		{
+            "type": "patchouli:crafting",
+            "recipe": "all_in_the_quiver:ink_arrow"
+        }
+    ]
+}
