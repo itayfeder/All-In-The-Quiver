@@ -1,0 +1,16 @@
+{
+  "type": "all_in_the_quiver:fletching",
+  "fletching": {
+    "item": "minecraft:feather"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "arrowhead": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": {
+    "item": "all_in_the_quiver:teleportation_arrow",
+	"count": 1
+  }
+}
