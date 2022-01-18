@@ -9,6 +9,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.SerializationTags;
 import net.minecraft.tags.Tag;
+import net.minecraft.util.GsonHelper;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -45,7 +46,7 @@ public class PaintArrowDye {
             throw new JsonParseException("PaintArrowDye must be a JSON Object");
 
         JsonObject jsonObject = json.getAsJsonObject();
-        String ingrid = JsonUtils.getStringOr("recplaceTag", jsonObject, "test");
+        String ingrid = GsonHelper.getAsString(jsonObject, "recplaceTag", "test");
         ResourceLocation ingridId = ResourceLocation.tryParse(ingrid);
         if (ingridId == null)
             throw new JsonParseException("recplaceTag is not valid");
@@ -55,7 +56,7 @@ public class PaintArrowDye {
             throw new JsonParseException("colored is not valid");
         Map<String, ResourceLocation> colorMap = new HashMap<>();
         for(DyeColor color : DyeColor.values()) {
-            String location = JsonUtils.getStringOr(color.getName(), coloredElement.getAsJsonObject(), null);
+            String location = GsonHelper.getAsString(coloredElement.getAsJsonObject(), color.getName(), null);
             ResourceLocation locationid = ResourceLocation.tryParse(location);
             if (locationid == null)
                 throw new JsonParseException("colored." + color.getName() + " is not valid");

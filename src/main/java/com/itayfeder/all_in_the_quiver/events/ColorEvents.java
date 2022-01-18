@@ -5,11 +5,12 @@ import com.itayfeder.all_in_the_quiver.arrows.paint.PaintArrowItem;
 import com.itayfeder.all_in_the_quiver.init.ItemInit;
 import net.minecraft.client.color.item.ItemColors;
 import net.minecraft.world.item.DyeableLeatherItem;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = AllInTheQuiverMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = AllInTheQuiverMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ColorEvents {
     @SubscribeEvent
     public static void registerColorHandlers(ColorHandlerEvent.Item event) {
